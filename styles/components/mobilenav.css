@@ -1,0 +1,55 @@
+.mobile-nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      width: 100%;
+      height: 100%;
+      background-color: #09090b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: none;
+}
+
+.mobile-nav-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.mobile-link{
+    text-decoration: none;
+    font-size: var(--size-sm);
+    color: var(--clr-indigo);
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    transition: color 0.3s;
+}
+
+
+.mobile-link:hover{
+       color: var(--clr-rose);
+}
+
+
+.mobile-link-line{
+    padding-left: 1.5em;
+    border: 1px solid var(--clr-indigo);
+}
+
+.mobile-nav-sun{
+    width: var(--size-3xl);
+    aspect-ratio: 1;
+    display: block;
+    color: var(--clr-indigo);
+}
+
+
+.mobile-nav-btn{
+    font-size: var(--size-sm);
+}

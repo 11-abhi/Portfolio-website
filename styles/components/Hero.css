@@ -1,0 +1,159 @@
+.hero{
+    height: auto;
+    width: 100%;
+    background-color: unset;
+    padding: 18px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9em;
+    transform: translateY(-80px);
+}
+
+.hero .hero-img{
+        height: 200px;
+        aspect-ratio: 1;
+        background-color: var(--clr-slate600);
+        border-radius: 50%;
+        overflow: hidden;
+}
+
+
+.hero-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.Hero-subtitle{
+        font-size: var(--size-base);
+        color: var(--clr-indigo);
+        line-height: 0.9;
+}
+
+.Hero-title{
+      font-size: var(--size-3xl);
+      line-height: 0.9;
+      text-transform: uppercase;
+      color: var(--clr-light);
+}
+
+.Hero-description{
+    font-size: var(--size-sm);
+    max-width: 60ch;
+    color: var(--clr-light);
+}
+
+.Hero-Link {
+        text-transform: capitalize;
+        font-size: var(--size-sm);
+}
+
+
+ @media (min-width : 475px) {
+    .hero{
+        height: auto;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .hero .hero-img{
+            height: 200px;
+    }
+    
+    
+    
+    
+    .Hero-subtitle{
+            font-size: var(--size-lg);
+    }
+    
+    .Hero-title{
+          font-size: var(--size-5xl);
+    }
+    
+    .Hero-description{
+        font-size: var(--size-base);
+    }
+    
+    .Hero-Link {
+            font-size: var(--size-base);
+    }
+}
+
+@media (min-width : 640px) {
+}
+
+
+@media (min-width : 768px) {
+
+}
+
+
+@media (min-width : 1024px) {
+
+    .hero{
+        height: auto;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .hero .hero-img{
+            height: 280px;
+    }
+    
+    
+    
+    
+    .Hero-subtitle{
+            font-size: var(--size-2xl);
+    }
+    
+    .Hero-title{
+          font-size: var(--size-7xl);
+    }
+    
+    .Hero-description{
+        font-size: var(--size-lg);
+    }
+    
+    .Hero-Link {
+            font-size: var(--size-lg);
+    }
+}
+
+@media (min-width : 1280px) {
+    .hero{
+        height: auto;
+        width: 100%;
+        gap: 1.6rem;
+    }
+    
+    .hero .hero-img{
+            height: 300px;
+    }
+ 
+    .Hero-subtitle{
+            font-size: var(--size-4xl);
+    }
+    
+    .Hero-title{
+          font-size: var(--size-9xl);
+    }
+    
+    .Hero-description{
+        font-size: var(--size-xl);
+    }
+    
+    .Hero-Link {
+            font-size: var(--size-xl);
+    }
+}
+
+
+@media (min-width : 1536px) {
+
+} 
